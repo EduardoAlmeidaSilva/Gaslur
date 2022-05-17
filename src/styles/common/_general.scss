@@ -1,0 +1,95 @@
+// Separadores
+.not-separate {
+  margin-bottom: 0 !important;
+}
+
+.small-separate {
+  margin-bottom: 30px !important;
+}
+
+.separate-50 {
+  margin-bottom: 50px !important;
+}
+
+.separate-base {
+  margin-bottom: 60px !important;
+}
+
+.separate-medium {
+  margin-bottom: 100px !important;
+}
+
+.separate-double {
+  margin-bottom: 120px !important;
+}
+
+.separate-180 {
+  margin-bottom: 80px !important;
+  @media (min-width: $screen-sm) {
+    margin-bottom: 180px !important;
+  }
+}
+
+.separate-top-80-sm {
+  @media (min-width: $screen-sm) {
+    margin-top: 80px !important;
+  }
+}
+
+.separate-200 {
+  margin-bottom: 200px !important;
+}
+
+.separate-title-holder {
+  margin-top: 40px;
+}
+
+.separate-34 {
+  margin-bottom: 34px !important;
+}
+
+.separate-description {
+  margin-bottom: 50px !important;
+}
+
+//hidden
+.hidden {
+  display: none !important;
+}
+
+@media screen {
+  @media (max-width: ($screen-sm - 1px)) {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+  @media (min-width: $screen-sm) and (max-width: ($screen-md - 1px)) {
+    .hidden-sm {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: $screen-md) and (max-width: ($screen-lg - 1px)) {
+    .hidden-md {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: $screen-lg) {
+    .hidden-lg {
+      display: none !important;
+    }
+  }
+}
+
+//Display table centralizado
+.table-center {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+//positions backgrounds
+.bg-position-right {
+  background-position: right center !important;
+}

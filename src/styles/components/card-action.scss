@@ -1,0 +1,53 @@
+.card-action {
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 45px 0px 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  margin-bottom: 30px;
+
+  position: relative;
+  z-index: 2;
+
+  img {
+    width: 278px;
+    height: 200px;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  @media screen and (min-width: $screen-md) {
+    margin-bottom: 0;
+    img{
+      height: 259px;
+    }
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: calc(50% - 35px);
+      width: 70px;
+      height: 4px;
+      background-color: $color-primary;
+      border-radius: 40px 0px;
+    }
+  }
+}

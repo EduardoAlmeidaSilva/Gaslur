@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: $font-text;
+  margin: 0;
+  padding: 0;
+  color: $color-dark;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: white;
+    z-index: 9999;
+    transform: translate3d(-80vw, 0, 0);
+    transition: transform 0.33s;
+    pointer-events: none;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 31, 38, 0.5);
+    z-index: 9999;
+    transform: translate3d(-100vw, 0, 0);
+    pointer-events: none;
+  }
+  &.overflow-hidden {
+    overflow: hidden;
+    &:after {
+      transform: translate3d(0, 0, 0);
+      transition: transform 0.37s;
+    }
+    &:before {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: $font-text;
+}
+
+img {
+  max-width: 100%;
+}
