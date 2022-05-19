@@ -55,27 +55,71 @@ select {
 img {
   max-width: 100%;
 }
+.section1 {
+  margin-top: 180px;
+ 
+  .botaosection1a {
+    background: linear-gradient(
+      103.91deg,
+      #9b51e0 21.01%,
+      rgba(48, 129, 237, 0.8) 100%
+    );
+    border: 1px solid #9b51e0;
+    border-radius: 16px;
+    padding: 0px;
+  }
+  .botaosection1b {
+    border: 1px solid #d7d7d7;
+    border-radius: 16px;
+  }
+  .ladobsection2 {
+    margin-top: 16px;
+    border: 0.88px solid transparent;
+    border-radius: 35px;
+    border-image: linear-gradient(168.82deg, #FB37FF 1.7%, rgba(155, 111, 238, 0) 27.12%, rgba(123, 127, 234, 0) 61.28%, #1BB2DE 99.52%);
+    border-image-slice: 1;
+    
+    .img1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
 
-.botaosection1a {
-  background: linear-gradient(
-    103.91deg,
-    #9b51e0 21.01%,
-    rgba(48, 129, 237, 0.8) 100%
-  );
-  border: 1px solid #9b51e0;
-  border-radius: 16px;
+    }
+    .laurasection1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 30px;
+      margin-bottom: 25px;
+    }
+    .imglaura {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .fotolaura {
+      display: flex;
+    }
+    }
+    
+  
 }
-.botaosection1b {
-  border: 1px solid #d7d7d7;
-  border-radius: 16px;
-}
-.laurasection1 {
+
+.menusection2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 140px;
+  .viewall {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 }
-.imglaura {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.buttondoscardscomimg {
+  background-color: $color-1;
+  border: 1px solid #E2E2E2;
+  border-radius: 8px;
+  
 }
