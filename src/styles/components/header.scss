@@ -1,40 +1,19 @@
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 26px 30px 29px;
-  background: white;
-  z-index: 999999;
-
-  -webkit-box-shadow: 0px 0px 9px 0px rgba(199, 199, 199, 1);
-  -moz-box-shadow: 0px 0px 9px 0px rgba(199, 199, 199, 1);
-  box-shadow: 0px 0px 9px 0px rgba(199, 199, 199, 1);
-
-  .header-main {
+.header1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .ulheader1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
   }
-
-  label.menu-toggle {
-    top: calc(50% - 8px);
-    right: 15px;
-    display: block;
-    @include menu-toggle($color-primary, 25px);
+  .buttonheader1 {
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
   }
-  .header-btns {
-    margin-top: -55px;
-  }
-
-  @media screen {
-    @media (min-width: $screen-lg) {
-      padding: 20px 45px 20px 60px;
-      .header-btns {
-        margin-top: 0;
-        display: flex;
-      }
-    }
+  .buttonheader2 {
+    border: 0px;
   }
 }

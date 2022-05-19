@@ -117,6 +117,21 @@
 .pdt-5 {
   padding-top: 50px;
 }
+.pdt-6 {
+  padding-top: 60px;
+}
+.pdt-7 {
+  padding-top: 70px;
+}
+.pdt-8 {
+  padding-top: 80px;
+}
+.pdt-9 {
+  padding-top: 90px;
+}
+.pdt-10 {
+  padding-top: 100px;
+}
 .pdr-0 {
   padding-right: 0px;
 }
@@ -134,6 +149,21 @@
 }
 .pdr-5 {
   padding-right: 50px;
+}
+.pdl-6 {
+  padding-right: 60px;
+}
+.pdl-7 {
+  padding-right: 70px;
+}
+.pdl-8 {
+  padding-right: 80px;
+}
+.pdl-9 {
+  padding-right: 90px;
+}
+.pdl-10 {
+  padding-right: 100px;
 }
 .pdb-0 {
   padding-bottom: 0px;
@@ -153,6 +183,21 @@
 .pdb-5 {
   padding-bottom: 50px;
 }
+.pdb-6 {
+  padding-bottom: 60px;
+}
+.pdb-7 {
+  padding-bottom: 70px;
+}
+.pdb-8 {
+  padding-bottom: 80px;
+}
+.pdb-9 {
+  padding-bottom: 90px;
+}
+.pdb-10 {
+  padding-bottom: 100px;
+}
 .pdl-0 {
   padding-left: 0px;
 }
@@ -169,13 +214,25 @@
   padding-left: 40px;
 }
 .pdl-5 {
-  padding-left: margin;
+  padding-left: 50px;
+}
+.pdl-6 {
+  padding-left: 60px;
+}
+.pdl-7 {
+  padding-left: 70px;
+}
+.pdl-8 {
+  padding-left: 80px;
+}
+.pdl-9 {
+  padding-left: 90px;
+}
+.pdl-10 {
+  padding-left: 100px;
 }
 .mg {
   margin: 0px;
-}
-.mgt {
-  margin: 0;
 }
 .mgt-0 {
   margin-top: 0px;
@@ -195,6 +252,21 @@
 .mgt-5 {
   margin-top: 50px;
 }
+.mgt-6 {
+  margin-top: 60px;
+}
+.mgt-7 {
+  margin-top: 70px;
+}
+.mgt-8 {
+  margin-top: 80px;
+}
+.mgt-9 {
+  margin-top: 90px;
+}
+.mgt-10 {
+  margin-top: 100px;
+}
 .mgr-0 {
   margin-right: 0px;
 }
@@ -212,6 +284,21 @@
 }
 .mgr-5 {
   margin-right: 50px;
+}
+.mgr-6 {
+  margin-right: 60px;
+}
+.mgr-7 {
+  margin-right: 70px;
+}
+.mgr-8 {
+  margin-right: 80px;
+}
+.mgr-9 {
+  margin-right: 90px;
+}
+.mgr-10 {
+  margin-right: 100px;
 }
 .mgb-0 {
   margin-bottom: 0px;
@@ -231,6 +318,21 @@
 .mgb-5 {
   margin-bottom: 50px;
 }
+.mgb-6 {
+  margin-bottom: 60px;
+}
+.mgb-7 {
+  margin-bottom: 70px;
+}
+.mgb-8 {
+  margin-bottom: 80px;
+}
+.mgb-9 {
+  margin-bottom: 90px;
+}
+.mgb-10 {
+  margin-bottom: 100px;
+}
 .mgl-0 {
   margin-left: 0px;
 }
@@ -249,19 +351,24 @@
 .mgl-5 {
   margin-left: 50px;
 }
-//cores da letras
-.color {
-  $color-1: #FFFFFF;
-  $color-2: #BCBCBC;
-  $color-3: #E2E2E2;
-//nao tem as cores degrade
+.mgl-6 {
+  margin-left: 60px;
 }
-.colorletra-1 {
-  color: #FFFFFF;
+.mgl-7 {
+  margin-left: 70px;
 }
-.colorletra-2 {
-  color: #BCBCBC;
+.mgl-8 {
+  margin-left: 80px;
 }
-.colorletra-3 {
-  color: #E2E2E2;
+.mgl-9 {
+  margin-left: 90px;
+}
+.mgl-10 {
+  margin-left: 100px;
+}
+.eas {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

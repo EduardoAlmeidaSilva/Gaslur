@@ -29,7 +29,7 @@ $grid-container-max-size: 1200px;
 //configurações de fonte
 $font-display: "Oswald", sans-serif;
 $font-text: "Montserrat", sans-serif;
-
+$font-text1: "Poppins", sans-serif;
 //icons do Icomoon App
 $icomoon-font-family: "icomoon" !default;
 $icomoon-font-path: "fonts" !default;
@@ -40,3 +40,51 @@ $icon-arrow-right: "\e906";
 $icon-facebook: "\e900";
 $icon-instagram: "\e901";
 $icon-youtube: "\e902";
+
+//cores da letras
+$color-letra1: #ffffff;
+$color-letra2: #bcbcbc;
+$color-letra3: #e2e2e2;
+//nao tem as cores degrade
+
+.colorletra-1 {
+  color: $color-letra1;
+}
+.colorletra-2 {
+  color: $color-letra2;
+}
+.colorletra-3 {
+  color: $color-letra3;
+}
+//cor degradê
+
+$color-1: #1f1d2b;
+$color-2: #ffffff18;
+$color-3: linear-gradient(
+  103.91deg,
+  #9b51e0 21.01%,
+  rgba(48, 129, 237, 0.8) 100%
+);
+$color-4: #18b2de blur(200px);
+$color-5: #fb37ff blur(200px);
+$color-6: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%) blur(200px);
+$color-7: #bcbcbc;
+$color-8: #ffffff;
+$color-9: #e2e2e2;
+$color-10: #d7d7d7;
+.colorletra1 {
+  color: $color-7;
+}
+.colorletra2 {
+  color: $color-8;
+}
+.colorletra3 {
+  color: $color-9;
+}
+.colorletra4 {
+  color: $color-10;
+}
+
+.cor-fundo-site {
+  background-color: $color-1;
+}
