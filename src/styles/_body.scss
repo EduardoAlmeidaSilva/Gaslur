@@ -57,7 +57,7 @@ img {
 }
 .section1 {
   margin-top: 180px;
- 
+
   .botaosection1a {
     background: linear-gradient(
       103.91deg,
@@ -76,15 +76,20 @@ img {
     margin-top: 16px;
     border: 0.88px solid transparent;
     border-radius: 35px;
-    border-image: linear-gradient(168.82deg, #FB37FF 1.7%, rgba(155, 111, 238, 0) 27.12%, rgba(123, 127, 234, 0) 61.28%, #1BB2DE 99.52%);
+    border-image: linear-gradient(
+      168.82deg,
+      #fb37ff 1.7%,
+      rgba(155, 111, 238, 0) 27.12%,
+      rgba(123, 127, 234, 0) 61.28%,
+      #1bb2de 99.52%
+    );
     border-image-slice: 1;
-    
+
     .img1 {
       display: flex;
       align-items: center;
       justify-content: center;
       margin-top: 25px;
-
     }
     .laurasection1 {
       display: flex;
@@ -101,9 +106,7 @@ img {
     .fotolaura {
       display: flex;
     }
-    }
-    
-  
+  }
 }
 
 .menusection2 {
@@ -113,13 +116,51 @@ img {
   margin-top: 140px;
   .viewall {
     display: flex;
-      align-items: center;
-      justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 .buttondoscardscomimg {
   background-color: $color-1;
-  border: 1px solid #E2E2E2;
+  border: 1px solid #e2e2e2;
   border-radius: 8px;
-  
+}
+.menusection4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+.menusection4a {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buttonmenusection4 {
+  background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+  border-radius: 10px;
+  border: 1px solid $color-1;
+}
+.hr1 {
+  width: 100%;
+}
+
+.section3 {
+  margin-top: 160px;
+  .cards4 {
+    background: rgba(255, 255, 255, 0.095);
+    box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17),
+      inset -3.01333px 3.01333px 3.01333px rgba(255, 255, 255, 0.39);
+    backdrop-filter: blur(74.4293px);
+    border-radius: 26px;
+  }
+}
+.buttonsection4 {
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+  margin-top: 80px;
+}
+
+.footer {
+  margin-top: 160px;
 }

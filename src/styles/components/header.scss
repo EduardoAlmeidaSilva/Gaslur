@@ -8,12 +8,21 @@
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
+    @media screen and (max-width: $screen-sm) {
+      display: none;
   }
+}
   .buttonheader1 {
     border: 1px solid #D7D7D7;
     border-radius: 10px;
+    @media screen and (max-width: $screen-sm) {
+      display: none;
+  }
   }
   .buttonheader2 {
     border: 0px;
+    @media screen and (max-width: $screen-sm) {
+      display: none;
+  }
   }
 }

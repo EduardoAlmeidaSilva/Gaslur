@@ -72,6 +72,7 @@ $color-7: #bcbcbc;
 $color-8: #ffffff;
 $color-9: #e2e2e2;
 $color-10: #d7d7d7;
+$color-11: #828282;
 .colorletra1 {
   color: $color-7;
 }
@@ -84,7 +85,11 @@ $color-10: #d7d7d7;
 .colorletra4 {
   color: $color-10;
 }
+.colorletra5 {
+  color: $color-11;
+}
 
 .cor-fundo-site {
   background-color: $color-1;
 }
+
