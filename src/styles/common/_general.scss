@@ -407,3 +407,35 @@
   align-items: center;
   justify-content: space-between;
 }
+.eas10 {
+  @media screen and (max-width: $screen-md) {
+    display: none;
+  }
+}
+.eas11 {
+  @media screen and (max-width: $screen-sm) {
+    display: none;
+  }
+}
+.eas12 {
+  font-family: $font-text1;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: -2px;
+  @media screen and (max-width: $screen-sm) {
+    font-family: $font-text1;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -1px;
+  }
+}
+.eas13 {
+  width: 100%;
+}
+.eas14 {
+  @media screen and (max-width: $screen-md){
+  text-align: center;
+  }
+}
