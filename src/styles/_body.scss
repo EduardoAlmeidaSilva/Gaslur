@@ -56,11 +56,27 @@ img {
   max-width: 100%;
 }
 .section1 {
-  
-  @media screen and (min-width: $screen-lg){
+  @media screen and (min-width: $screen-lg) {
     margin-top: 180px;
   }
-
+  @media screen and (max-width: $screen-lg) {
+    margin-top: 60px;
+  }
+  .botoessection1 {
+    @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+    @media screen and (max-width: $screen-sm) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 60px;
+    }
+  }
   .botaosection1a {
     background: linear-gradient(
       103.91deg,
@@ -69,16 +85,32 @@ img {
     );
     border: 1px solid #9b51e0;
     border-radius: 16px;
-    padding: 0px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    @media screen and (max-width: $screen-sm) {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
   }
   .botaosection1b {
+    
     border: 1px solid #d7d7d7;
     border-radius: 16px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    @media screen and (max-width: $screen-sm) {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
   }
+  
   .ladobsection2 {
     margin-top: 16px;
     border: 0.88px solid transparent;
-    border-radius: 35px;
     border-image: linear-gradient(
       168.82deg,
       #fb37ff 1.7%,
@@ -87,33 +119,71 @@ img {
       #1bb2de 99.52%
     );
     border-image-slice: 1;
+    .sombra1 {
+      position: absolute;
+      top: 50px;
+      left: 680px; 
+      background-color: rgba(251, 55, 255, 0.3);
+      filter: blur(40px);
+      padding-left: 182px;
+      padding-right: 66px;
+      padding-top: 200px;
+      padding-bottom: 76px;
+      border-radius: 50%;
+    }
+    .sombra2 {
+      position: absolute ;
+      top: 630px;
+      left: 1015px; 
+      background-color:rgba(24, 178, 222, 0.3);
+      filter: blur(40px);
+      padding-left: 182px;
+      padding-right: 66px;
+      padding-top: 200px;
+      padding-bottom: 76px;
+      border-radius: 50%;
+    }
     .img1 {
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-top: 25px;
+      @media screen and (max-width: $screen-sm) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
     }
     .laurasection1 {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: 30px;
-      margin-bottom: 25px;
-      @media screen and (max-width: $screen-md) {
-        justify-content: center;
-        
+      margin-left: 30px;
+      margin-right: 30px;
+      @media screen and (max-width: $screen-sm) {
+        align-items: flex-start;
+        margin-left: 12px;
+        margin-right: 13px;
       }
-    }
-    .imglaura {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .fotolaura {
-      display: flex;
-      @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
-        margin-right: 180px;
-        
+      @media screen and (min-width: $screen-sm) and (max-width: 1279px) {
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 135px;
+        margin-right: 140px;
+      }
+      .imglaura {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .fotolaura {
+        display: flex;
+        justify-content: center;
+
+        @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
+          margin-right: 180px;
+        }
+        @media screen and (max-width: $screen-sm) {
+          margin-right: 15px;
+        }
       }
     }
   }
@@ -121,7 +191,7 @@ img {
 
 .menusection2 {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-top: 140px;
   .viewall {
@@ -137,19 +207,21 @@ img {
 }
 .menusection4 {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   margin-top: 160px;
 }
 .menusection4a {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   justify-content: center;
 }
 .buttonmenusection4 {
   background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
   border-radius: 10px;
   border: 1px solid $color-1;
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
+  }
 }
 .hr1 {
   width: 100%;
@@ -157,6 +229,19 @@ img {
 
 .section3 {
   margin-top: 160px;
+  .sombra3 {
+    position: absolute ;
+    top: 2030px;
+    left: 30px; 
+    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
+    border-radius: 10px;
+    filter: blur(50px);
+    padding-left: 600px;
+    padding-right: 600px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  
+  }
   .cards4 {
     background: rgba(255, 255, 255, 0.095);
     box-shadow: inset 2.01px -2.01px 20px rgba(214, 214, 214, 0.17),

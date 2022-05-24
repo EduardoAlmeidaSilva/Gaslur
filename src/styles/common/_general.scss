@@ -425,8 +425,8 @@
   letter-spacing: -2px;
   @media screen and (max-width: $screen-sm) {
     font-family: $font-text1;
-    font-weight: 400;
-    font-size: 40px;
+    font-weight: 300;
+    font-size: 36px;
     line-height: 60px;
     letter-spacing: -1px;
   }
@@ -435,7 +435,92 @@
   width: 100%;
 }
 .eas14 {
-  @media screen and (max-width: $screen-md){
+  @media screen and (max-width: $screen-md) {
+    text-align: center;
+  }
+}
+.eas15 {
+  @media screen and (max-width: $screen-sm) {
+    padding: 0px;
+  }
+}
+.eas16 {
+  font-family: $font-text1;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  @media screen and (max-width: $screen-sm) {
+    font-family: $font-text1;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+.eas17 {
   text-align: center;
+}
+.eas18 {
+  font-family: $font-text1;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  @media screen and (max-width: $screen-sm) {
+    font-family: $font-text1;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 72px;
+    letter-spacing: -1px;
+  }
+}
+.eas19 {
+  font-family: $font-text1;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  @media screen and (max-width: $screen-sm) {
+    font-family: $font-text1;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+  }
+}
+.eas20 {
+  @media screen and (max-width: $screen-sm) {
+  text-align: center;
+  padding-left: 0px;
+  padding-left: 0px;
+  }
+}
+.eas21 {
+  @media screen and (max-width: $screen-sm) {
+    margin-left: 44px;
+  }
+}
+.eas22{
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
+    margin-left: 40px;
+  }
+}
+.eas23{
+  @media screen and (min-width: $screen-sm) and (max-width: $screen-lg) {
+    margin-left: 10px;
+    padding-right: 40px;
+    
+  }
+}
+.eas24 {
+  font-family: $font-text1;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  @media screen and (max-width: $screen-sm) {
+    font-family: $font-text1;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 72px;
+    letter-spacing: -1px;
   }
 }
