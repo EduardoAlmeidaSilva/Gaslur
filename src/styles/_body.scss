@@ -95,7 +95,6 @@ img {
     }
   }
   .botaosection1b {
-    
     border: 1px solid #d7d7d7;
     border-radius: 16px;
     padding-left: 70px;
@@ -107,8 +106,9 @@ img {
       margin-right: 0px;
     }
   }
-  
+
   .ladobsection2 {
+    position: relative;
     margin-top: 16px;
     border: 0.88px solid transparent;
     border-image: linear-gradient(
@@ -121,27 +121,97 @@ img {
     border-image-slice: 1;
     .sombra1 {
       position: absolute;
-      top: 50px;
-      left: 680px; 
-      background-color: rgba(251, 55, 255, 0.3);
-      filter: blur(40px);
-      padding-left: 182px;
-      padding-right: 66px;
-      padding-top: 200px;
-      padding-bottom: 76px;
-      border-radius: 50%;
+      @media screen and (min-width: $screen-lg) {
+        top: -138px;
+        left: -82px;
+        background-color: rgba(251, 55, 255, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (min-width: $screen-md) and (max-width: $screen-lg) {
+        top: -138px;
+        left: -82px;
+        background-color: rgba(251, 55, 255, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (min-width: $screen-sm) and (max-width: 1023px) {
+        top: -138px;
+        left: -82px;
+        background-color: rgba(251, 55, 255, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (max-width: $screen-sm) {
+        top: -100px;
+        left: -28%;
+        background-color: rgba(251, 55, 255, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
     }
     .sombra2 {
-      position: absolute ;
-      top: 630px;
-      left: 1015px; 
-      background-color:rgba(24, 178, 222, 0.3);
-      filter: blur(40px);
-      padding-left: 182px;
-      padding-right: 66px;
-      padding-top: 200px;
-      padding-bottom: 76px;
-      border-radius: 50%;
+      position: absolute;
+      @media screen and (min-width: $screen-lg) {
+        top: 75%;
+        left: 50%;
+        background-color: rgba(24, 178, 222, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (min-width: $screen-md) and (max-width: 1279px) {
+        top: 70%;
+        left: 76%;
+        background-color: rgba(24, 178, 222, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (min-width: $screen-sm) and (max-width: 1023px) {
+        top: 70%;
+        left: 60%;
+        background-color: rgba(24, 178, 222, 0.3);
+        filter: blur(40px);
+        padding-left: 182px;
+        padding-right: 66px;
+        padding-top: 200px;
+        padding-bottom: 76px;
+        border-radius: 50%;
+      }
+      @media screen and (max-width: $screen-sm) {
+        top: 70%;
+        left: 35%;
+        background-color: rgba(24, 178, 222, 0.3);
+        filter: blur(40px);
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        border-radius: 50%;
+      }
     }
     .img1 {
       display: flex;
@@ -166,8 +236,8 @@ img {
       @media screen and (min-width: $screen-sm) and (max-width: 1279px) {
         justify-content: center;
         align-items: flex-start;
-        margin-left: 135px;
-        margin-right: 140px;
+        margin-left: 90px;
+        margin-right: 90px;
       }
       .imglaura {
         display: flex;
@@ -229,18 +299,54 @@ img {
 
 .section3 {
   margin-top: 160px;
+  position: relative;
   .sombra3 {
-    position: absolute ;
-    top: 2030px;
-    left: 30px; 
-    background: linear-gradient(93.51deg, #9B51E0 2.84%, #3081ED 99.18%);
-    border-radius: 10px;
-    filter: blur(50px);
-    padding-left: 600px;
-    padding-right: 600px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  
+    position: absolute;
+    @media screen and (min-width: $screen-lg) {
+      top: 270px;
+      left: -10px;
+      background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+      border-radius: 10px;
+      filter: blur(50px);
+      padding-left: 600px;
+      padding-right: 600px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    @media screen and (min-width: $screen-md) and (max-width: 1279px) {
+      top: 270px;
+      left: -100px;
+      background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+      border-radius: 10px;
+      filter: blur(50px);
+      padding-left: 500px;
+      padding-right: 600px;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    @media screen and (min-width: $screen-sm) and (max-width: 1023px) {
+      top: 270px;
+      left: 5%;
+      background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+      border-radius: 10px;
+      filter: blur(300px);
+      padding-left: 300px;
+      padding-right: 300px;
+      padding-top: 300px;
+      padding-bottom: 300px;
+    }
+    @media screen and (max-width: $screen-sm) {
+      top: 290px;
+      left: 43%;
+      background: linear-gradient(93.51deg, #9b51e0 2.84%, #3081ed 99.18%);
+      border-radius: 10px;
+      filter: blur(50px);
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 600px;
+      padding-bottom: 600px;
+    }
   }
   .cards4 {
     background: rgba(255, 255, 255, 0.095);
@@ -253,9 +359,14 @@ img {
 .buttonsection4 {
   border: 1px solid #d7d7d7;
   border-radius: 6px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .footer {
-  margin-top: 160px;
+  @media screen and (min-width: $screen-lg) {
+    margin-top: 160px;
+  }
+  @media screen and (max-width: $screen-lg) {
+    margin-top: 100px;
+  }
 }
